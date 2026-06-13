@@ -49,6 +49,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "AI CV Generator" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "AI CV Generator — Build an ATS-optimized resume in minutes" },
+      { name: "twitter:title", content: "AI CV Generator — Build an ATS-optimized resume in minutes" },
+      { property: "og:description", content: "Create a professional, ATS-friendly CV with AI. Multiple templates, live preview, free PDF export. Also works as Lebenslauf Generator." },
+      { name: "twitter:description", content: "Create a professional, ATS-friendly CV with AI. Multiple templates, live preview, free PDF export. Also works as Lebenslauf Generator." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ad035d88-ae9a-4a6c-bc6b-85da81de830c/id-preview-d13c025f--2ac4a857-e42c-4f6d-be32-ca23f617998d.lovable.app-1781341491429.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ad035d88-ae9a-4a6c-bc6b-85da81de830c/id-preview-d13c025f--2ac4a857-e42c-4f6d-be32-ca23f617998d.lovable.app-1781341491429.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
