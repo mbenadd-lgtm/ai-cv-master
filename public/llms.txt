@@ -1,0 +1,6 @@
+# AI CV Generator
+
+> Create professional, ATS-optimized CVs in minutes with AI. Multiple templates, live preview, free PDF export.
+
+## Pages
+- [Home](/): AI-powered CV builder, features, pricing, and templates overview.
